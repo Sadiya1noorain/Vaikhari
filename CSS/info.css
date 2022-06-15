@@ -26,7 +26,7 @@ h3 {
 
 .window {
     background: #fff;
-    width: 470px;
+    width: 540px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -140,7 +140,6 @@ a:hover {
     -webkit-flex-flow: column;
     -ms-flex-flow: column;
     flex-flow: column;
-    width: 30%;
 }
 
 .small {
