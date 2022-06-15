@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+
+    <script src="https://kit.fontawesome.com/a445e2c439.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/items.css">
+    <link rel="stylesheet" href="../CSS/info.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <header class="header">
+        <a href="" class="logo"><img src="../Pics/r.png" alt="" srcset="" style="max-height: 40px;"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#" id="cart"><i class="fa-solid fa-cart-shopping" style="font-size: 20px;">
+                        <span>0</span></i></a>
+            </li>
+        </ul>
+    </header>
+    <!--/.Navbar-->
+
+
+    <!--SearchBar-->
+    <header class="search-header">
+        <div class="search">
+            <div class="wrapper">
+                <div class="search-btn">
+                    <span class="fas fa-search"></span>
+                </div>
+                <div class="search-data">
+                    <input type="text" required>
+                    <div class="line"></div>
+                    <label>Type to search..</label>
+                    <span class="fas fa-search"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="login">
+            <button class="btn">Sign In</button>
+            <button class="btn">Sign Up</button>
+        </div>
+    </header>
+    <!--/.SearchBar-->
+
+    <div class='container'>
+        <div class='background-element' id='background-element'>
+        </div>
+        <div class='highlight-window' id='product-img'>
+            <div class='highlight-overlay' id='highlight-overlay'></div>
+        </div>
+        <div class='window'>
+            <div class='main-content'>
+                <h2>Lorem ipsum dolor</h2>
+                <h1>LOREM IPSUM</h1>
+                <h3>MINIMALISTIC T-SHIRT IN COTTON-BLEND</h3>
+                <div class='description' id='description'>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio aperiam amet distinctio corrupti
+                    aliquid praesentium maxime, error ea suscipit consequuntur beatae, modi quas possimus voluptate enim
+                    nemo facere! Officia, maiores.</div>
+                <div class='highlight-window  mobile' id='product-img'>
+                    <div class='highlight-overlay' id='highlight-overlay-mobile'></div>
+                </div>
+                <div class='options'>
+                    <div class='color-options'>
+                        <div>Color:</div>
+                        <div class="color-box">
+                            <div class='color' id='color-1' style="background-color: #fff;"></div>
+                            <div class='color' id='color-2' style="background-color: #000;"></div>
+                            <div class='color' id='color-3' style="background-color: red;"></div>
+                            <div class='color' id='color-4' style="background-color: blue;"></div>
+                            <div class='color' id='color-5' style="background-color: yellow;"></div>
+                            <div class='color' id='color-6' style="background-color: maroon;"></div>
+                        </div>
+                    </div>
+
+                    <div class="facilities">
+                        <div class="facility-box small"><img src="./Pics/cash-on-delivery.png" alt=""><br>COD</div>
+                        <div class="facility-box small"><img src="./Pics/taxes.png" alt=""><br>EMI</div>
+                        <div class="facility-box small" style="width: 10%;"><img src="./Pics/free-shipping.png"
+                                alt=""><br>Free Shipping</div>
+                    </div>
+
+                    <div class='size-picker'>
+                        Size:
+                        <div class='range-picker' id='range-picker'>
+                            <div>44</div>
+                            <div>46</div>
+                            <div>48</div>
+                            <div class='active'>50</div>
+                            <div>52</div>
+                            <div>54</div>
+                        </div>
+                        <a class='small align-right' href='#'>
+                            <span>VIEW SIZE-CHART</span>
+                            <br><br>
+                            <span>30 DAYS RETURN</span>
+                        </a>
+                    </div>
+                </div>
+                <div class='divider'></div>
+
+                <div class='purchase-info'>
+                    <div class='header-title'>$224</div>
+                    <div class="btns">
+                        <button class="btn">BUY</button>
+                        <button class="btn">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col" id="about">
+                    <h6>About</h6>
+                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+                        maiores illo dolor architecto, necessitatibus unde eius ea, excepturi assumenda dicta,
+                        consequuntur quasi accusantium impedit fugiat ad? Similique sint non perspiciatis!
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur laboriosam placeat hic
+                        quibusdam sit provident nostrum voluptatem laborum, eos quaerat at temporibus error eligendi
+                        mollitia nesciunt vel aspernatur repellat odit?</p>
+                </div>
+
+                <div class="col">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Foot Wear</a></li>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Baggage</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h6 style="width: 75%;">Get Latest offers to your inbox</h6>
+                    <ul class="footer-links">
+                        <input type="email" name="Email" id="btn-mail" placeholder="Enter your email address">
+                        <i class="fa-solid fa-envelope btn" style="color: #fff; font-size: 15px;"></i>
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+            <hr>
+            <br>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by
+                        <a href="#">NicksR</a>.
+                    </p>
+                </div>
+
+                <div class="col">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+    <script src="../JS/info.js"></script>
+    <script src="../JS/navbar.js"></script>
+</body>
+
+</html>
