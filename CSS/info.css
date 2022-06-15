@@ -216,6 +216,7 @@ a:hover {
     height: 30px;
     -webkit-transition: background .5s ease;
     transition: background .5s ease;
+    padding: 0 15px;
 }
 
 .highlight-window.mobile {
